@@ -259,12 +259,11 @@ body {
 }
 
 .icon-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 264px;
   height: 112px;
-  padding-top: 24px;
-  padding-right: 100px;
-  padding-bottom: 24px;
-  padding-left: 100px;
   background: var(--light);
   border-radius: 4px;
 }
@@ -489,7 +488,6 @@ body {
 }
 
 .examples-item:hover {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   cursor: pointer;
